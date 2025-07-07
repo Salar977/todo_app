@@ -83,7 +83,8 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: createNewTask,
-        child: Icon(Icons.add),
+        backgroundColor: Colors.blue,
+        child: const Icon(Icons.add, color: Colors.white,),
       ),
       body: ListView.builder(
         itemCount: db.todoList.length,
