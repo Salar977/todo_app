@@ -16,7 +16,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
 
   // db connection
-  ToDoDatabase db = new ToDoDatabase();
+  ToDoDatabase db = ToDoDatabase();
 
   // reference the hive box
   final _myBox = Hive.box('mybox');
